@@ -1,13 +1,66 @@
 :root {
   /*COLORS*/
   --white-color: hsl(0, 0%, 100%);
-  --stone-100: hsl(30, 54%, 90%);
-  --stone-150: hsl(30, 18%, 87%);
-  --stone-600: hsl(30, 10%, 34%);
-  --stone-900: hsl(24, 5%, 18%);
-  --brown-800: hsl(14, 45%, 36%);
-  --rose-50: hsl(330, 100%, 98%);
+  --eggShell: hsl(30, 54%, 90%);
+  --lightGrey: hsl(30, 18%, 87%);
+  --wedgeBrown: hsl(30, 10%, 34%);
+  --darkCharcoal: hsl(24, 5%, 18%);
+  --nutmegBrown: hsl(14, 45%, 36%);
+  --darkRaspberry: hsl(332, 51%, 32%);
+  --roseWhite: hsl(330, 100%, 98%);
 
   /*TYPOGRAPGHY*/
+  --font-1: "Outfit", sans-serif;
+  --font-2: "Young Serif", serif;
   --font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--eggShell);
+  font-family: var(--font-1);
+  font-size: var(--font-size);
+}
+
+.container {
+  background-color: var(--white-color);
+  padding: 20px;
+  border-radius: 24px;
+}
+
+h1,
+h2 {
+  font-family: var(--font-2);
+}
+
+h2 {
+  color: var(--nutmegBrown);
+}
+
+img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+li {
+  line-height: 1.75;
+}
+
+.prep-section {
+  background-color: var(--roseWhite);
+  padding: 10px 20px;
+  border-radius: 12px;
+}
+
+.prep-section h3 {
+  color: var(--darkRaspberry);
+}
+
+hr {
+  border-top: 1px solid var(--roseWhite);
 }
