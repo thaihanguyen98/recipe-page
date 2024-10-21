@@ -11,25 +11,30 @@ The designs were created to the following widths:
 
 ## Colors
 
-- Red: hsl(14, 86%, 42%)
-- Green: hsl(159, 69%, 38%)
+- White: hsl(0, 0%, 100%)
 
-- Rose 50: hsl(20, 50%, 98%)
-- Rose 100: hsl(13, 31%, 94%)
-- Rose 300: hsl(14, 25%, 72%)
-- Rose 400: hsl(7, 20%, 60%)
-- Rose 500: hsl(12, 20%, 44%)
-- Rose 900: hsl(14, 65%, 9%)
+- Stone 100: hsl(30, 54%, 90%)
+- Stone 150: hsl(30, 18%, 87%)
+- Stone 600: hsl(30, 10%, 34%)
+- Stone 900: hsl(24, 5%, 18%)
+
+- Brown 800: hsl(14, 45%, 36%)
+
+- Rose 800: hsl(332, 51%, 32%)
+- Rose 50: hsl(330, 100%, 98%)
 
 ## Typography
 
 ### Body Copy
 
-- Font size (product names): 16px
+- Font size (paragraph): 16px
 
-### Font
+### Fonts
 
-- Family: [Red Hat Text](https://fonts.google.com/specimen/Red+Hat+Text)
+- Family: [Young Serif](https://fonts.google.com/specimen/Young+Serif)
+- Weights: 400
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
 - Weights: 400, 600, 700
 
 > 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma. The design file for this challenge also includes a design system and tablet layout to help you build a more accurate solution faster.
